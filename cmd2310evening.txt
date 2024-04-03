@@ -1,0 +1,230 @@
+    1  exit
+    2  cd DotNet/
+    3  ls
+    4  cd Language/
+    5  mkdir AbstractClassTest
+    6  cd AbstractClassTest/
+    7  dotnet new classlib BankLib
+    8  dotnet new classlib -o BankLib
+    9  ls
+   10  dotnet new console -o DemoApp
+   11  ls
+   12  code .
+   13  cd DemoApp/
+   14  dotnet run
+   15  dotnet run 7000
+   16  dotnet run 17000
+   17  dotnet run 8OOO
+   18  pwd
+   19  cd ../../../
+   20  history > cmd1610evening.txt 
+   21  vi cmd1610evening.txt 
+   22  cd ..
+   23  cp -r DotNet /mnt/d/Sample/
+   24  exit
+   25  clear
+   26  cd DotNet/Language/AbstractClassTest/
+   27  LS
+   28  cd DemoApp/
+   29  dotnet restore -s ../BankLib/bin/Debug/
+   30  dotnet build
+   31  ls bin/Debug/net7.0/
+   32  code ..
+   33  cd ..
+   34  cd ../InterfaceTest1/
+   35  ls
+   36  code .
+   37  cd DemoApp/
+   38  ls
+   39  dotnet restore -s ../BankLib/bin/Debug/
+   40  ls bin/Debug/net7.0/
+   41  dotnet build
+   42  ls bin/Debug/net7.0/
+   43  ls ../BankLib/bin/Debug/
+   44  dotnet build
+   45  ls bin/Debug/net7.0/
+   46  dotnet run
+   47  code ..
+   48  cd ../..
+   49  mkdir InterfaceTest2
+   50  cd InterfaceTest
+   51  cd InterfaceTest2
+   52  dotnet new console -o DemoApp
+   53  cd DemoApp/
+   54  code .
+   55  pwd
+   56  cd ../../../
+   57  history > cmd1710evening.txt 
+   58  vi cmd1710evening.txt 
+   59  cd ..
+   60  cp -r DotNet /mnt/d/Sample/
+   61  clear
+   62  cd DotNet/Language/InterfaceTest2/DemoApp/
+   63  code .
+   64  dotnet run jeff 150
+   65  dotnet run jack 12
+   66  dotnet run jim 80
+   67  dotnet run jeff 150
+   68  dotnet run jack 12
+   69  dotnet run jim 80
+   70  dotnet run jack 12
+   71  dotnet run jeff 150
+   72  dotnet run jack 12
+   73  dotnet run jim 80
+   74  dotnet run jeff 150
+   75  dotnet run jim 80
+   76  pwd
+   77  cd ../../../
+   78  history > cmd1810morning.txt 
+   79  vi cmd1810morning.txt 
+   80  ls
+   81  cd Language/
+   82  ls
+   83  cp -r InterfaceTest2 /mnt/d/Sample/DotNet/Language/
+   84  cd ../../
+   85  cd DotNet/
+   86  cp -r cmd1810morning.txt /mnt/d/Sample/DotNet
+   87  ls
+   88  pwd
+   89  cd ~
+   90  ls
+   91  cd Samples
+   92  ls
+   93  cd DotNet/
+   94  ls
+   95  cd Language/
+   96  ls
+   97  pwd
+   98  cd ..
+   99  ls
+  100  cd Nilesh/
+  101  ls
+  102  pwd
+  103  clear
+  104  mkdir LibDemoApp
+  105  cd LibDemoApp/
+  106  dotnet new classlib -o HRLibApp
+  107  pwd
+  108  dotnet new console -o DemoApp
+  109  ls
+  110  code .
+  111  ls
+  112  cd HRLibApp/
+  113  dotnet build
+  114  ls
+  115  clear
+  116  cd ..
+  117  cd DemoApp/
+  118  ls
+  119  dotnet build
+  120  dotnet run
+  121  cd ..
+  122  cd..
+  123  cd ..
+  124  ls
+  125  ls -r ../../
+  126  cp -r ../Samples/DotNet/Language/InterfaceTest1 .
+  127  ls
+  128  cd InterfaceTest1/
+  129  code .
+  130  exit
+  131  ls
+  132  cd DotNet
+  133  ls
+  134  mkdir Runtime
+  135  cd Runtime/
+  136  mkdir GenericMethodTest
+  137  cd GenericMethodTest/
+  138  dotnet new console -o DemoApp
+  139  cp ../../Language/ObjectClassTest/DemoApp/Interval.cs DemoApp/
+  140  cd DemoApp/
+  141  code .
+  142  dotnet run 23
+  143  dotnet run 32
+  144  dotnet run 23
+  145  dotnet run 32
+  146  dotnet run 23
+  147  dotnet run 32
+  148  dotnet run 23
+  149  dotnet run 32
+  150  dotnet run
+  151  pwd
+  152  cd ../../../
+  153  history > cmd1810evening.txt 
+  154  vi cmd1810evening.txt 
+  155  cd ..
+  156  cp -r DotNet /mnt/d/Sample/
+  157  exit
+  158  clear
+  159  mkdir EnumeratorTest
+  160  cd EnumeratorTest/
+  161  dotnet new console -o DemoApp1
+  162  cd DemoApp1/
+  163  cp ../../GenericTypeTest/DemoApp/SimpleStack.cs .
+  164  code .
+  165  dotnet run
+  166  pwd
+  167  cd ../../../
+  168  ls
+  169  history > cmd1910evening.txt 
+  170  vi cmd1910evening.txt 
+  171  cd ..
+  172  cp -r DotNet /mnt/d/Sample/
+  173  exit
+  174  clear
+  175  cd EnumeratorTest/
+  176  ls
+  177  dotnet new console -o DemoApp2
+  178  cd DemoApp2
+  179  cp ../../GenericMethodTest/DemoApp/Interval.cs .
+  180  code .
+  181  dotnet run
+  182  dotnet run friday
+  183  dotnet run monday
+  184  dotnet run tuesday
+  185  dotnet run sunday
+  186  dotnet run tuesday
+  187  dotnet run sunday
+  188  dotnet run monday
+  189  dotnet run sunday
+  190  dotnet run monday
+  191  dotnet run sunday
+  192  cd ../..
+  193  mkdir DelegateTest
+  194  cd DelegateTest/
+  195  dotnet new console -o DemoApp
+  196  cd DemoApp/
+  197  code .
+  198  dotnet run
+  199  pwd
+  200  cd ../../../
+  201  history > cmd2010morning.txt 
+  202  vi cmd2010morning.txt 
+  203  cd ..
+  204  cp -r DotNet /mnt/d/Sample/
+  205  ls
+  206  ls DotNet/Runtime/
+  207  ls DotNet/Runtime/EnumeratorTest/
+  208  ll DotNet/Runtime/EnumeratorTest/
+  209  exit
+  210  cd Runtime/
+  211  cd Platform/
+  212  mkdir AsyncParallelTest
+  213  cd AsyncParallelTest/
+  214  dotnet new console -o DemoApp
+  215  cd DemoApp/
+  216  cp ../../ThreadingTest1/DemoApp/Activity.cs .
+  217  code .
+  218  cd DotNet/Platform/AsyncParallelTest/DemoApp/
+  219  code .
+  220  dotnet run 5
+  221  dotnet run 10
+  222  dotnet run 20
+  223  dotnet run 30
+  224  dotnet run 20
+  225  dotnet run 30
+  226  dotnet run 20
+  227  dotnet run 30
+  228  pwd
+  229  cd ../../../
+  230  history > cmd2310evening.txt 

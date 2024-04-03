@@ -1,0 +1,15 @@
+    1  cd DotNet/Enterprise/AspNetCoreMvcTest/DemoApp2
+    2  ls
+    3  code .
+    4  dotnet watch
+    5  cd wwwroot/
+    6  wget iitdac.met.edu/shared/dotnet/reactclient.tar.gz
+    7  rm reactclient.tar.gz 
+    8  ls
+    9  wget iitdac.met.edu/shared/dotnet/reactclient.tar.gz
+   10  tar xf reactclient.tar.gz 
+   11  rm reactclient.tar.gz 
+   12  ls
+   13  cd ..
+   14  dotnet run
+   15  history > cmd0111morning-I.txt

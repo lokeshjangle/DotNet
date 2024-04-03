@@ -1,0 +1,18 @@
+    1  clear
+    2  cd Language/
+    3  ls
+    4  cp -r StructTypeTest/ EnumTypeTest
+    5  cd EnumTypeTest/
+    6  cd DemoApp/
+    7  code .
+    8  dotnet run 200000 5
+    9  dotnet run 60000 8
+   10  dotnet run 50000 12
+   11  dotnet run 60000 8
+   12  dotnet run 50000 12
+   13  pwd
+   14  cd ../.../../
+   15  pwd
+   16  cd ..
+   17  ls
+   18  history > cmd1310evening.txt 

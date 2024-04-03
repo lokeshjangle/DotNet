@@ -1,0 +1,15 @@
+    1  clear
+    2  mkdir Enterprise
+    3  cd Enterprise/
+    4  mkdir AdoNetTest
+    5  cd AdoNetTest/
+    6  dotnet new console -o DemoApp1
+    7  cd DemoApp1/
+    8  wget iitdac.met.edu/shared/dotnet/shop.db
+    9  ls
+   10  sqlite3 shop.db
+   11  history >cmd2710morning.txt
+   12  ls
+   13  rm cmd2710morning.txt 
+   14  cd ..
+   15  history >cmd2710morning.txt

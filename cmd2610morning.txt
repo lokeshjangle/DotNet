@@ -1,0 +1,23 @@
+    1  clear
+    2  mkdir TcpListenerTest
+    3  cd TcpListenerTest/
+    4  dotnet new console -o DemoApp
+    5  cd DemoApp/
+    6  ls
+    7  wget iitdac.met.edu/shared/dotnet/CitiTek.xml
+    8  code .
+    9  dotnet build
+   10  ./bin/Debug/net7.0/DemoApp &
+   11  ./bin/Debug/net7.0/DemoApp
+   12  telnet localhost 4000
+   13  pkill -ef DemoApp
+   14  dotnet build
+   15  ./bin/Debug/net7.0/DemoApp &
+   16  telnet localhost 4000
+   17  pkill -ef DemoApp
+   18  dotnet build
+   19  ./bin/Debug/net7.0/DemoApp &
+   20  telnet localhost 4000
+   21  pwd
+   22  cd ../../../
+   23  history > cmd2610morning.txt 

@@ -1,0 +1,20 @@
+  281  cd DotNet/Enterprise/AspNetCoreMvcTest/DemoApp2
+  282  ls
+  283  curl localhost:5000/api/review
+  284  curl localhost:5000/api/review?min=2
+  285  sqlite3 site.db
+  286  curl localhost:5000/api/review
+  287  curl localhost:5000/api/review?min=2
+  288  curl localhost:5000/api/review?min=4
+  289  curl localhost:5000/api/review?min=5
+  290  curl localhost:5000/api/review
+  291  curl localhost:5000/api/review -X PUT -H 'Content-Type:application/json' -d @input.json 
+  292  curl localhost:5000/api/review -X PUT -H 'Content-Type: application/json' -d @input.json 
+  293  curl localhost:5000/api/review
+  294  curl localhost:5000/api/review -X PUT -H 'Content-Type: application/json' -d @input.json 
+  295  curl localhost:5000/api/review
+  296  curl localhost:5000/api/review -X PUT -H 'Content-Type: application/json' -d @input.json 
+  297  curl localhost:5000/api/review
+  298  curl localhost:5000/api/review -X PUT -H 'Content-Type: application/json' -d @input.json 
+  299  pwd
+  300  history > cmd0111morning-II.txt

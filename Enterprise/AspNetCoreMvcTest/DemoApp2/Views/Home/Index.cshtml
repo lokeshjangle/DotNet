@@ -1,0 +1,25 @@
+@model IEnumerable<DemoApp.Models.VisitInfo>
+<html>
+    <head>
+        <title>DemoApp</title>
+    </head>
+    <h1>Our Visitors</h1>
+    <table border="2">
+        <tr>
+            <th>Visitor Name</th>
+            <th>Visit Count</th>
+            <th>Last Visit</th>
+        </tr>
+        @foreach(var entry in Model)
+        {
+            <tr>
+                <td>@entry.VisitorName</td>
+                <td>@entry.VisitCount</td>
+                <td>@entry.LastVisit</td>
+            </tr>
+        }
+    </table>
+    <p>
+        <a href="/Home/Register">Register your Visit</a>
+    </p>
+</html>

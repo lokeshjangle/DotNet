@@ -1,0 +1,18 @@
+    1  exit
+    2  cd DotNet/Language/PrimitiveTypeTest/DemoApp/
+    3  ls
+    4  code .
+    5  dotnet build
+    6  dotnet bin/Debug/net7.0/DemoApp.dll 200000 5
+    7  dotnet run 200000 5
+    8  dotnet run 60000 15
+    9  cd ../..
+   10  cp -r PrimitiveTypeTest/ StructTypeTest
+   11  cd StructTypeTest/DemoApp/
+   12  code .
+   13  dotnet run 200000 5
+   14  dotnet run 60000 15
+   15  dotnet run 50000 6
+   16  dotnet run 60000 15
+   17  cd ..
+   18  history >cmd1310morning.txt 

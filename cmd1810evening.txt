@@ -1,0 +1,23 @@
+    1  ls
+    2  cd DotNet
+    3  ls
+    4  mkdir Runtime
+    5  cd Runtime/
+    6  mkdir GenericMethodTest
+    7  cd GenericMethodTest/
+    8  dotnet new console -o DemoApp
+    9  cp ../../Language/ObjectClassTest/DemoApp/Interval.cs DemoApp/
+   10  cd DemoApp/
+   11  code .
+   12  dotnet run 23
+   13  dotnet run 32
+   14  dotnet run 23
+   15  dotnet run 32
+   16  dotnet run 23
+   17  dotnet run 32
+   18  dotnet run 23
+   19  dotnet run 32
+   20  dotnet run
+   21  pwd
+   22  cd ../../../
+   23  history > cmd1810evening.txt 

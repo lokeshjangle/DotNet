@@ -1,0 +1,37 @@
+    1  cd DotNet/Enterprise/
+    2  mkdir GrpcServiceTest
+    3  cd GrpcServiceTest/
+    4  dotnet new classlib -o Sales
+    5  cd Sales/
+    6  dotnet add package Google.Protobuf
+    7  dotnet add package Grpc
+    8  dotnet add package Grpc.Tools
+    9  code .
+   10  dotnet build
+   11  cd ..
+   12  dotnet new web -o Server
+   13  cd Server/
+   14  dotnet add reference ../Sales/
+   15  dotnet add package Grpc.AspNetCore.Server
+   16  dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+   17  code .
+   18  dotnet run
+   19  dotnet build
+   20  cd ..
+   21  mkdir DemoApp
+   22  cd DemoApp/
+   23  wget iitdac.met.edu/shared/dotnet/Program.py
+   24  vi Program.py 
+   25  code Program.py 
+   26  python -m grpc_tools.protoc --python_out=. --grpc_python_out=. -I ../Sales/ order_manager.proto
+   27  ls
+   28  python3 Program.py CU201
+   29  python3 Program.py CU203
+   30  python3 Program.py CU204
+   31  python3 Program.py CU205
+   32  python3 Program.py CU204 202 20
+   33  python3 Program.py CU204
+   34  python3 Program.py CU205 203 30
+   35  pwd
+   36  cd ../../../
+   37  history > cmd0311morning.txt 

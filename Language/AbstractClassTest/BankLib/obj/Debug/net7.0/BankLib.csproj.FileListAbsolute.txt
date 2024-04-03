@@ -1,0 +1,11 @@
+D:\Cdac\DotNet\Language\AbstractClassTest\BankLib\bin\Debug\net7.0\BankLib.deps.json
+D:\Cdac\DotNet\Language\AbstractClassTest\BankLib\bin\Debug\net7.0\BankLib.dll
+D:\Cdac\DotNet\Language\AbstractClassTest\BankLib\bin\Debug\net7.0\BankLib.pdb
+D:\Cdac\DotNet\Language\AbstractClassTest\BankLib\obj\Debug\net7.0\BankLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cdac\DotNet\Language\AbstractClassTest\BankLib\obj\Debug\net7.0\BankLib.AssemblyInfoInputs.cache
+D:\Cdac\DotNet\Language\AbstractClassTest\BankLib\obj\Debug\net7.0\BankLib.AssemblyInfo.cs
+D:\Cdac\DotNet\Language\AbstractClassTest\BankLib\obj\Debug\net7.0\BankLib.csproj.CoreCompileInputs.cache
+D:\Cdac\DotNet\Language\AbstractClassTest\BankLib\obj\Debug\net7.0\BankLib.dll
+D:\Cdac\DotNet\Language\AbstractClassTest\BankLib\obj\Debug\net7.0\refint\BankLib.dll
+D:\Cdac\DotNet\Language\AbstractClassTest\BankLib\obj\Debug\net7.0\BankLib.pdb
+D:\Cdac\DotNet\Language\AbstractClassTest\BankLib\obj\Debug\net7.0\ref\BankLib.dll

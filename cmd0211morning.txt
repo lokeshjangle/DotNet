@@ -1,0 +1,39 @@
+    1  ls
+    2* 
+    3  vi /tmp/list.txt 
+    4  cd Enterprise/
+    5  mkdir RazorPagesTest
+    6  cd RazorPagesTest/
+    7  dotnet new web -o DemoApp1
+    8  cp -r ../AspNetCoreTest/DemoApp2/Services/ DemoApp1/
+    9  cd DemoApp1/
+   10  code .
+   11  dotnet watch
+   12  pwd
+   13  cd ../../../
+   14  history > cmd0111evening.txt 
+   15  vi cmd0111evening.txt 
+   16  ls
+   17  cd Enterprise/
+   18  ls
+   19  ll
+   20  cd AspNetCoreMvcTest/
+   21  ls
+   22  ls DemoApp1/
+   23  ls DemoApp2/
+   24  cd ..
+   25  ls
+   26  cp -r DotNet /mnt/d/Sample/
+   27* /tmp/list.txt 
+   28  cd DotNet/Enterprise/
+   29  ls
+   30  cd RazorPagesTest/
+   31  ls
+   32  dotnet new web -o DemoApp2
+   33  cd DemoApp2
+   34  dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+   35  code .
+   36  dotnet watch
+   37  pwd
+   38  cd ../../../
+   39  history > cmd0211morning.txt

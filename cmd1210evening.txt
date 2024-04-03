@@ -1,0 +1,34 @@
+    1  exit
+    2  mkdir DotNet
+    3  cd DotNet/
+    4  mkdir Language
+    5  cd Language/
+    6  cp /mnt/d/Testing/Greeter.dll .
+    7  cp /mnt/d/Testing/Greeter.runtimeconfig.json .
+    8  ls
+    9  vi Greeter.runtimeconfig.json 
+   10  dotnet --version
+   11  dotnet Greeter.dll 
+   12  uname -m
+   13  mkdir -p PrimitiveTypeTest/DemoApp
+   14  cd PrimitiveTypeTest/
+   15  vi Program.cs
+   16  mv Program.cs DemoApp/
+   17  ls
+   18  cd DemoApp/
+   19  ls
+   20  vi DemoApp.csproj
+   21  ls
+   22  dotnet build
+   23  vi DemoApp.csproj
+   24  dotnet build
+   25  ls
+   26  dotnet bin/Debug/net7.0/DemoApp.dll 
+   27  bin/Debug/net7.0/DemoApp
+   28  ls bin/Debug/net7.0/
+   29  vi Program.cs
+   30  vi DemoApp.csproj 
+   31  dotnet build
+   32  pwd
+   33  cd ../../../
+   34  history >cmd1210evening.txt

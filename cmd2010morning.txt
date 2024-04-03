@@ -1,0 +1,28 @@
+    1  clear
+    2  cd EnumeratorTest/
+    3  ls
+    4  dotnet new console -o DemoApp2
+    5  cd DemoApp2
+    6  cp ../../GenericMethodTest/DemoApp/Interval.cs .
+    7  code .
+    8  dotnet run
+    9  dotnet run friday
+   10  dotnet run monday
+   11  dotnet run tuesday
+   12  dotnet run sunday
+   13  dotnet run tuesday
+   14  dotnet run sunday
+   15  dotnet run monday
+   16  dotnet run sunday
+   17  dotnet run monday
+   18  dotnet run sunday
+   19  cd ../..
+   20  mkdir DelegateTest
+   21  cd DelegateTest/
+   22  dotnet new console -o DemoApp
+   23  cd DemoApp/
+   24  code .
+   25  dotnet run
+   26  pwd
+   27  cd ../../../
+   28  history > cmd2010morning.txt 

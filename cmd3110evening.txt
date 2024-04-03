@@ -1,0 +1,14 @@
+    1  cd DotNet/Enterprise/
+    2  cd AspNetCoreMvcTest/
+    3  ls
+    4  dotnet new web -o DemoApp2
+    5  cd DemoApp2
+    6  cp -r ../../EFCoreTest1/DemoApp/Models/ .
+    7  cp -r ../../EFCoreTest1/DemoApp/site.db .
+    8  dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+    9  code .
+   10  sqlite3 site.db 
+   11  dotnet watch
+   12  pwd
+   13  cd ../../../
+   14  history > cmd3110evening.txt 

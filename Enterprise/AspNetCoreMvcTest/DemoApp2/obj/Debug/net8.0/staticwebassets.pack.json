@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Cdac\\DotNet\\Enterprise\\AspNetCoreMvcTest\\DemoApp2\\wwwroot\\review\\index.css",
+      "PackagePath": "staticwebassets\\review\\index.css"
+    },
+    {
+      "Id": "D:\\Cdac\\DotNet\\Enterprise\\AspNetCoreMvcTest\\DemoApp2\\wwwroot\\review\\index.html",
+      "PackagePath": "staticwebassets\\review\\index.html"
+    },
+    {
+      "Id": "D:\\Cdac\\DotNet\\Enterprise\\AspNetCoreMvcTest\\DemoApp2\\wwwroot\\review\\index.js",
+      "PackagePath": "staticwebassets\\review\\index.js"
+    },
+    {
+      "Id": "D:\\Cdac\\DotNet\\Enterprise\\AspNetCoreMvcTest\\DemoApp2\\wwwroot\\review\\scripts\\babel.min.js",
+      "PackagePath": "staticwebassets\\review\\scripts\\babel.min.js"
+    },
+    {
+      "Id": "D:\\Cdac\\DotNet\\Enterprise\\AspNetCoreMvcTest\\DemoApp2\\wwwroot\\review\\scripts\\react-dom.development.js",
+      "PackagePath": "staticwebassets\\review\\scripts\\react-dom.development.js"
+    },
+    {
+      "Id": "D:\\Cdac\\DotNet\\Enterprise\\AspNetCoreMvcTest\\DemoApp2\\wwwroot\\review\\scripts\\react.development.js",
+      "PackagePath": "staticwebassets\\review\\scripts\\react.development.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DemoApp2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DemoApp2.props",
+      "PackagePath": "build\\DemoApp2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DemoApp2.props",
+      "PackagePath": "buildMultiTargeting\\DemoApp2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DemoApp2.props",
+      "PackagePath": "buildTransitive\\DemoApp2.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

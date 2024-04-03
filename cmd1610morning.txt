@@ -1,0 +1,11 @@
+    1  clear
+    2  cd DotNet/Language/
+    3  ls
+    4  mkdir -p ObjectClassTest/DemoApp
+    5  cd ObjectClassTest/DemoApp/
+    6  cp ../../ClassTypeTest/DemoApp/DemoApp.csproj .
+    7  code .
+    8  dotnet run
+    9  pwd
+   10  cd ../../../
+   11  history > cmd1610morning.txt 

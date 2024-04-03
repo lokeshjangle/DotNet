@@ -1,0 +1,11 @@
+    1  clear
+    2  cd Enterprise/AspNetCoreTest/DemoApp1/
+    3  dotnet run
+    4  cd ../
+    5  cp -r DemoApp1/ DemoApp2
+    6  cd DemoApp2
+    7  code .
+    8  dotnet run
+    9  pwd
+   10  cd ../../../
+   11  history > cmd3010evening.txt 

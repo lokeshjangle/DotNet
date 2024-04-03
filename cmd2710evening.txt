@@ -1,0 +1,44 @@
+    1  clear
+    2  cd DotNet/Enterprise/AdoNetTest/DemoApp1/
+    3  ls
+    4  sqlite3 shop.db 
+    5  wget iitdac.met.edu/shared/dotnet/dbprov.txt
+    6  dotnet add package Microsoft.Data.Sqlite 
+    7  ls ~/.nuget/packages/
+    8  ls ~/.nuget/packages/microsoft.data.sqlite
+    9  ls ~/.nuget/packages/microsoft.data.sqlite/7.0.13/lib/
+   10  ls ~/.nuget/packages/microsoft.data.sqlite/7.0.13/lib/netstandard2.0/_._ 
+   11  code .
+   12  dotnet build
+   13  dotnet run
+   14  sqlite3 shop.db 
+   15  dotnet run
+   16  dotnet run CU102
+   17  dotnet run
+   18  dotnet run CU105
+   19  dotnet run "';update customerinfo set address='"
+   20  dotnet run 
+   21* wh
+   22  wget iitdac.met.edu/shared/dotnet/shop.db
+   23  dotnet run 
+   24  dotnet run CU102
+   25  dotnet run 
+   26  dotnet run "';update customerinfo set address='"
+   27  dotnet run 
+   28  rm -r bin/ obj/
+   29  cd ../..
+   30  cd AdoNetTest/
+   31  ls
+   32  dotnet new console -o DemoApp2
+   33  cd DemoApp2
+   34  dotnet add package Microsoft.Data.SqlClient
+   35  code .
+   36  dotnet run 202 3
+   37  dotnet run 201 5
+   38  dotnet run 203 90
+   39  wget iitdac.met.edu/shared/dotnet/shopms.sql
+   40  dotnet run 202 5 CU201
+   41  dotnet run 204 10 CU206
+   42  dotnet run 204 10 CU203
+   43  cd ..
+   44  history >cmd2710evening.txt

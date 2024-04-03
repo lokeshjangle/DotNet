@@ -1,0 +1,29 @@
+    1  clear
+    2  ls
+    3  cd DemoApp/
+    4  ls
+    5  clear
+    6  ls
+    7  dotnet run Jack
+    8  dotnet run Jill
+    9  dotnet run Jack
+   10  ls
+   11  sqlite3 site.db 
+   12  dotnet run John
+   13  dotnet run
+   14  dotnet run John
+   15  dotnet run
+   16  dotnet run Jim
+   17  dotnet run
+   18  cd ../..
+   19  mkdir EFCoreTest2/
+   20  dotnet new console -o DemoApp
+   21  cd DemoApp/
+   22  dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+   23  code .
+   24  dotnet run
+   25  dotnet run 304
+   26  dotnet run 202
+   27  pwd
+   28  cd ../../
+   29  history > cmd2810evening.txt 

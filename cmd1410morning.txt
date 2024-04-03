@@ -1,0 +1,15 @@
+    1  cd DotNet/Language/
+    2  mkdir -p ClassTypeTest/DemoApp
+    3  cd ClassTypeTest/DemoApp
+    4  cp ../../StructTypeTest/DemoApp/DemoApp.csproj .
+    5  ls
+    6  code .
+    7  dotnet build
+    8  ls
+    9  mv .vscode/Payroll/ .
+   10  dotnet build
+   11  code .
+   12  dotnet run
+   13  pwd
+   14  cd ../../../
+   15  history > cmd1410morning.txt 

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "4FvXcYbiH82dNen5VOcs38toFsutcaeXC/RWRi6p48zFPt9/0ylZW1Z+bCnHXUxfWw0ZynbUGz4c5FOXBgI2/Q==",
+  "success": true,
+  "projectFilePath": "D:\\Cdac\\DotNet\\Enterprise\\BlazorWasmTest\\DemoApp\\Shared\\DemoApp.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.17\\microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.17\\microsoft.windowsdesktop.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.17\\microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

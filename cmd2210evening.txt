@@ -1,0 +1,20 @@
+    1  cd Runtime/
+    2  ls
+    3  mkdir PInvokeTest
+    4  cd PInvokeTest/
+    5  wget iitdac.met.edu/shared/dotnet/native.tar.gz
+    6  tar xf native.tar.gz 
+    7  rm native.tar.gz 
+    8  ls
+    9  dotnet new console -o DemoApp
+   10  code .
+   11  cd DemoApp/
+   12  dotnet run 10 20
+   13  cp ../NativeLib/libprimes.so bin/Debug/net7.0/
+   14  dotnet run 10 20
+   15  dotnet run 10 100
+   16  dotnet run 20 100
+   17  dotnet run 10 100
+   18  dotnet run 10 120
+   19  cd ../../../
+   20  history > cmd2210evening.txt 

@@ -1,0 +1,5 @@
+    1  cd DotNet/Enterprise/RazorPagesTest/DemoApp2
+    2  dotnet watch
+    3  pwd
+    4  cd ../../../
+    5  history > cmd0211evening.txt 

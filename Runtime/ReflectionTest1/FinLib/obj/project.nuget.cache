@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "fDF0KPjgzMUPBng/s1k0xBITIhuQCPdWGgpvuBL6487oKNQQf0kO2nzDAtwNVFWw8XcFDlpwL/iIy628WbidAg==",
+  "success": true,
+  "projectFilePath": "D:\\Cdac\\DotNet\\Runtime\\ReflectionTest1\\FinLib\\FinLib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.17\\microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.17\\microsoft.windowsdesktop.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.17\\microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,28 @@
+    1  clear
+    2  cd DotNet/
+    3  mkdir Platform
+    4  cd Platform/
+    5  mkdir ThreadingTest1
+    6  cd ThreadingTest1/
+    7  dotnet new console -o DemoApp
+    8  cd DemoApp/
+    9  code .
+   10  dotnet run
+   11  dotnet run 3
+   12  dotnet run
+   13  dotnet run 7
+   14  dotnet run
+   15  dotnet run 7\
+   16  dotnet run 7
+   17  dotnet run 12
+   18  cd ../..
+   19  mkdir ThreadingTest2/
+   20  cd ThreadingTest2
+   21  dotnet new console -o DemoApp
+   22  cd DemoApp/
+   23  cp ../../ThreadingTest1/DemoApp/Activity.cs .
+   24  code .
+   25  dotnet run
+   26  cd ..
+   27  ls
+   28  history >cmd2310morning.txt

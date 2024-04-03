@@ -1,0 +1,17 @@
+    1  clear
+    2  History -c
+    3  cd DotNet/Enterprise/
+    4  ls
+    5  mkdir AspNetCoreTest
+    6  cd AdoNetTest/
+    7  cd ..
+    8  cd AspNetCoreTest/
+    9  dotnet new console -o DemoApp1
+   10  cd DemoApp1/
+   11  code .
+   12  dotnet run
+   13  dotnet run --urls http://localhost:5010
+   14  dotnet run
+   15  pwd
+   16  cd ../../../
+   17  history > cmd3010morning.txt 

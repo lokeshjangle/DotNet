@@ -1,0 +1,19 @@
+    1  cd DotNet/
+    2  ls
+    3  cd Language/
+    4  mkdir AbstractClassTest
+    5  cd AbstractClassTest/
+    6  dotnet new classlib BankLib
+    7  dotnet new classlib -o BankLib
+    8  ls
+    9  dotnet new console -o DemoApp
+   10  ls
+   11  code .
+   12  cd DemoApp/
+   13  dotnet run
+   14  dotnet run 7000
+   15  dotnet run 17000
+   16  dotnet run 8OOO
+   17  pwd
+   18  cd ../../../
+   19  history > cmd1610evening.txt 

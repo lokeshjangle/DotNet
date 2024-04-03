@@ -1,0 +1,42 @@
+﻿@page "/"
+
+<h1>Welcome Sales Agent</h1>
+<hr/>
+<p>
+    <b>Customer ID:</b>
+    <input type="text" @bind="Input.CustomerId"/>
+    <button @onclick="GetOrders">Lookup</button>
+</p>
+<p>
+    <b>Product No</b><br/>
+    <input type="number" @bind="Input.ProductNo"/>
+</p>
+<p>
+    <b>Quantity</b><br/>
+    <input type="number" @bind="Input.Quantity"/>
+</p>
+<button @onclick="PostOrder">Order</button>
+<hr/>
+<h4>@StatusMessage</h4>
+@if(Invoice?.Count > 0)
+{
+    <table border="1">
+        <tr>
+            <th>Product No</th>
+            <th>Quantity</th>
+            <th>Order Date</th>
+        </tr>
+        @foreach(var entry in Invoice)
+        {
+            <tr>
+                <td>@entry.ProductNo</td>
+                <td>@entry.Quantity</td>
+                <td>@entry.OrderDate</td>
+            </tr>
+        }
+    </table>
+}
+<hr/>
+<p style="font-size: small;">
+    @DateTime.Now
+</p>

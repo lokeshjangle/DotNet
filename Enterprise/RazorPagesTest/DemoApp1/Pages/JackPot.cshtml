@@ -1,0 +1,14 @@
+@page "/Play/{size=8}"
+@addTagHelper *, DemoApp1
+@{
+    var count = Convert.ToInt32(RouteData.Values["size"]);
+}
+<html>
+    <head>
+        <title>DemoApp</title>
+    </head>
+    <body>
+        <h1>Welcome Gambler</h1>
+        <b>WINNER: </b><lotto digit-count="@count"></lotto>
+    </body>
+</html>

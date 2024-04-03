@@ -1,0 +1,24 @@
+    1  cd DotNet/Platform
+    2  mkdir FileIOTest1
+    3  cd FileIOTest1/
+    4  dotnet new console -o DemoApp
+    5  cd DemoApp/
+    6  cp ../../AsyncParallelTest/DemoApp/Program3.cs data1.txt
+    7  ll
+    8  code .
+    9  dotnet run data2.txt data3.txt 
+   10  dotnet run data1.txt Program.cs 
+   11  dotnet run data1.txt data2.txt
+   12  dotnet run data2.txt data3.txt
+   13  ll
+   14  cp Program.cs data4.txt
+   15  ls
+   16  ll
+   17  dotnet run data1.txt
+   18  dotnet run data4.txt 
+   19  ulimit -s
+   20  ulimit -s 10240
+   21  ulimit -s
+   22  pwd
+   23  cd ../../../
+   24  history > cmd2510morning.txt 

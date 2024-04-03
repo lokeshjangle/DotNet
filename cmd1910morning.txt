@@ -1,0 +1,12 @@
+    1  cd DotNet/Runtime/
+    2  ls
+    3  mkdir GenericTypeTest
+    4  cd GenericTypeTest/
+    5  dotnet new console -o DemoApp
+    6  cd DemoApp/
+    7  code .
+    8  cp ../../GenericMethodTest/DemoApp/Interval.cs .
+    9  dotnet run
+   10  pwd
+   11  cd ../../../
+   12  history > cmd1910morning.txt 

@@ -1,0 +1,60 @@
+    1  cd DotNet/Enterprise/
+    2  mkdir GrpcServiceTest
+    3  cd GrpcServiceTest/
+    4  dotnet new classlib -o Sales
+    5  cd Sales/
+    6  dotnet add package Google.Protobuf
+    7  dotnet add package Grpc
+    8  dotnet add package Grpc.Tools
+    9  code .
+   10  dotnet build
+   11  cd ..
+   12  dotnet new web -o Server
+   13  cd Server/
+   14  dotnet add reference ../Sales/
+   15  dotnet add package Grpc.AspNetCore.Server
+   16  dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+   17  code .
+   18  dotnet run
+   19  dotnet build
+   20  cd ..
+   21  mkdir DemoApp
+   22  cd DemoApp/
+   23  wget iitdac.met.edu/shared/dotnet/Program.py
+   24  vi Program.py 
+   25  code Program.py 
+   26  python -m grpc_tools.protoc --python_out=. --grpc_python_out=. -I ../Sales/ order_manager.proto
+   27  ls
+   28  python3 Program.py CU201
+   29  python3 Program.py CU203
+   30  python3 Program.py CU204
+   31  python3 Program.py CU205
+   32  python3 Program.py CU204 202 20
+   33  python3 Program.py CU204
+   34  python3 Program.py CU205 203 30
+   35  python3 Program.py CU205 205 30
+   36  pwd
+   37  cd ../../../
+   38  history > cmd0311morning.txt 
+   39  vi cmd0311morning.txt 
+   40  cd ..
+   41  cp -r DotNet /mnt/d/Sample/
+   42  cd DotNet/Enterprise/BlazorWasmTest/
+   43  ls
+   44  vi create.txt
+   45  cd DemoApp/Server/
+   46  ls
+   47  dotnet add reference ../../../GrpcServiceTest/Sales/
+   48  dotnet add package Grpc.Net.ClientFactory
+   49  dotnet add package System.Linq.Async
+   50  code .
+   51  dotnet build
+   52  dotnet run
+   53  code ../Client/
+   54  dotnet run
+   55  pwd
+   56  cd ../../../../
+   57  history > cmd0311evening.txt 
+   ------------------------------------------------
+   58  cd DotNet/Enterprise/GrpcServiceTest/Server/
+   59  ./bin/Debug/net7.0/Server

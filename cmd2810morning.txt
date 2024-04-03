@@ -1,0 +1,10 @@
+    1  cd Enterprise/
+    2  mkdir EFCoreTest1
+    3  cd EFCoreTest1/
+    4  dotnet new console -o DemoApp
+    5  cd DemoApp/
+    6  dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+    7  code .
+    8  pwd
+    9  cd ../../../
+   10  history > cmd2810morning.txt 

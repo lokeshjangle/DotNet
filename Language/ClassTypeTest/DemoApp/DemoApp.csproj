@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net7.0</TargetFramework>
+		<!-- add using statement for commonly required namespaces -->
+		<ImplicitUsings>enable</ImplicitUsings>
+		<!--
+			treat any type T as non-nullable unless used as type T? whose
+			identifier cannot be dereferenced (with . operator) without
+			firt confirming that it is not null 
+		-->
+		<Nullable>enable</Nullable>
+	</PropertyGroup>	
+
+</Project>
+

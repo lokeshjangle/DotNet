@@ -1,0 +1,13 @@
+    1  cd DotNet/Enterprise/
+    2  ls
+    3  mkdir AspNetCoreMvcTest/
+    4  cd AspNetCoreMvcTest/
+    5  dotnet new web -o DemoApp1
+    6  cp -r ../AspNetCoreTest/DemoApp2/Services/ DemoApp1/
+    7  cd DemoApp1/
+    8  ls
+    9  code .
+   10  dotnet watch
+   11  pwd
+   12  cd ../../../
+   13  history > cmd3110morning.txt 

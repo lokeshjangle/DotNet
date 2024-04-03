@@ -1,0 +1,23 @@
+    1  cd ..
+    2  ls
+    3  code .
+    4  dotnet run 3000
+    5  run --project DemoApp 3000
+    6  cd DemoApp/
+    7  ls
+    8  dotnet run 3000
+    9  dotnet run 18000
+   10  cd ../..
+   11  mkdir InterfaceTest1
+   12  cd InterfaceTest1/
+   13  dotnet new classlib -o BankLib
+   14  dotnet new console -o DemoApp
+   15  cp -r ../AbstractClassTest/BankLib/*.cs BankLib/
+   16  code .
+   17  cd BankLib/
+   18  ls
+   19  dotnet pack
+   20  ls bin/Debug/
+   21  pwd
+   22  cd ../../../
+   23  history > cmd1710morning.txt 

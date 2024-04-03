@@ -1,0 +1,17 @@
+@model DemoApp.Models.Visitor
+<html>
+    <head>
+        <title>DemoApp</title>
+    </head>
+    <body>
+        <h1>Welcome Visitor</h1>
+        <form method="post">
+            <b>Name:</b>
+            @Html.TextBoxFor(entry => entry.Id)
+            <input type="submit" value="Register"/>
+        </form>
+        <p>
+            <i>@Html.ValidationMessageFor(entry => entry.Id)</i>
+        </p>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+    1  clear
+    2  cd TcpListenerTest/DemoApp/
+    3  code .
+    4  dotnet build
+    5  ./bin/Debug/net7.0/DemoApp &
+    6  telnet localhost 4000
+    7  cd ../..
+    8  mkdir TcpClientTest
+    9  cd TcpClientTest/
+   10  dotnet new console -o DemoApp
+   11  cd DemoApp/
+   12  code .
+   13  dotnet run motherboard 4 localhost
+   14  dotnet run mouse 125 localhost
+   15  dotnet run printer 1 localhost
+   16  dotnet run CPU 2 localhost
+   17  dotnet run CPU 2 shop.center
+   18  dotnet run CPU 2 shopcenter
+   19  dotnet run CPU 2 iitdac.met.edu
+   20  cd ../..
+   21  mkdir HttpClientTest
+   22  cd HttpClientTest/
+   23  dotnet new console -o DemoApp
+   24  cd DemoApp/
+   25  cp ../../TcpClientTest/DemoApp/ItemInfo.cs .
+   26  code .
+   27  dotnet run ssd 4
+   28  dotnet run moniter 1
+   29  dotnet run monitor 1
+   30  dotnet run monitor 80
+   31  dotnet run printer 3
+   32  cd ../../../
+   33  history > cmd2610evening.txt

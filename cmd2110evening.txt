@@ -1,0 +1,31 @@
+    1  cd DotNet/Runtime/
+    2  ls
+    3  mkdir ReflectionTest1
+    4  cd ReflectionTest1/
+    5  dotnet new classlib -o FinLib
+    6  dotnet new console -o DemoApp
+    7  dotnet add DemoApp/ reference FinLib
+    8  code .
+    9  cd FinLib/
+   10  wget iitdac.met.edu/shared/dotnet/Finance.tar.gz
+   11  tar xf Finance.tar.gz 
+   12  rm Finance.tar.gz 
+   13  ls
+   14  dotnet run 1000000 EducationLoan
+   15  cd ../DemoApp/
+   16  dotnet run 1000000 EducationLoan
+   17  dotnet run 1000000 PersonalLoan
+   18  dotnet run 1000000 HomeLoan
+   19  dotnet run 1000000 CarLoan
+   20  dotnet run 1000000 HomeLoan
+   21  dotnet run 1000000 Finance.HomeLoan,FinLib
+   22  dotnet run 1000000 Finance.EducationLoan,FinLib
+   23  dotnet run 1000000 Finance.PersonalLoan,FinLib
+   24  dotnet run 1000000 CarLoan
+   25  dotnet run 1000000 Finance.CarLoan
+   26  dotnet run 1000000 Finance.CarLoan,FinLib
+   27  dotnet run 1000000 Finance.CarLoan
+   28  dotnet run 1000000 Finance.HomeLoan,FinLib
+   29  cd ..
+   30  ls
+   31  history >cmd21morning.txt

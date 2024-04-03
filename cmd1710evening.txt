@@ -1,0 +1,33 @@
+    1  clear
+    2  cd DotNet/Language/AbstractClassTest/
+    3  LS
+    4  cd DemoApp/
+    5  dotnet restore -s ../BankLib/bin/Debug/
+    6  dotnet build
+    7  ls bin/Debug/net7.0/
+    8  code ..
+    9  cd ..
+   10  cd ../InterfaceTest1/
+   11  ls
+   12  code .
+   13  cd DemoApp/
+   14  ls
+   15  dotnet restore -s ../BankLib/bin/Debug/
+   16  ls bin/Debug/net7.0/
+   17  dotnet build
+   18  ls bin/Debug/net7.0/
+   19  ls ../BankLib/bin/Debug/
+   20  dotnet build
+   21  ls bin/Debug/net7.0/
+   22  dotnet run
+   23  code ..
+   24  cd ../..
+   25  mkdir InterfaceTest2
+   26  cd InterfaceTest
+   27  cd InterfaceTest2
+   28  dotnet new console -o DemoApp
+   29  cd DemoApp/
+   30  code .
+   31  pwd
+   32  cd ../../../
+   33  history > cmd1710evening.txt 
